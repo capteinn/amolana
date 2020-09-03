@@ -23,7 +23,7 @@ include "../header.php";
 <?php include "../footer.php";
 }else{
 
-  echo "<script>alert('Anda tidak memiliki hak akses!!'); window.location='../../index.php'</script>";
+  echo "<script>alert('Anda tidak memiliki hak akses!!'); window.location='../login/login.php'</script>";
 
 }
 ?>
