@@ -17,6 +17,7 @@ include "../config.php";
 	<meta name="keywords" content="">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
+	<link rel="manifest" type="text/css" href="./manifest.webmanifest">
 	<!-- Site Title -->
 	<title>Amolana</title>
 	<!--
@@ -223,6 +224,21 @@ include "../config.php";
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+		   async function registerSW() {
+		if ('serviceWorker' in navigator) {
+    			try {
+    				await navigator.serviceWorker.register('./sw.js')
+    			} catch (e) {
+    				console.log('SW Registration failed');
+    			}
+    		}
+    	}
+    
+    	window.addEventListener("load", () => {
+    	  registerSW();
+    	});
+	</script>
 </body>
 
 </html>
