@@ -1,0 +1,22 @@
+{
+	"name": "Amolana",
+	"short_name": "Amolana",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"description": "Amolana Terapis!",
+	"icons": [
+		{
+			"src": "public/images/icon192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "public/images/icon512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"scope" : "/",
+	"theme_color" : "#ffba00"
+}
