@@ -1,6 +1,9 @@
 const cacheName = 'amolana-v1';
 const staticAssets = [
 	'./',
+	'js/',
+	'css/',
+	'css/main.css',
 	'./manifest.webmanifest',
 ];
 

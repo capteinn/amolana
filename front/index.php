@@ -17,7 +17,7 @@ include "../config.php";
 	<meta name="keywords" content="">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
-	<link rel="manifest" type="text/css" href="./manifest.webmanifest">
+	<link rel="manifest" type="text/css" href="manifest.webmanifest">
 	<!-- Site Title -->
 	<title>Amolana</title>
 	<!--
@@ -228,7 +228,7 @@ include "../config.php";
 		   async function registerSW() {
 		if ('serviceWorker' in navigator) {
     			try {
-    				await navigator.serviceWorker.register('./sw.js')
+    				await navigator.serviceWorker.register('sw.js')
     			} catch (e) {
     				console.log('SW Registration failed');
     			}
