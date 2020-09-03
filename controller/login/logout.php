@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <head>
 
 	<link href="../../resource/css/sweetalert.css" rel="stylesheet">
@@ -29,8 +30,6 @@ include '../../equipment.php';
 ?>
 
 <?php
-
-session_start();
 
 echo ".";
 
