@@ -1,0 +1,12 @@
+[07-Aug-2019 17:23:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'sg7-1.rumahweb.com' (using password: NO) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 17:23:16 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/take6418/public_html/amolana/controller/login/logout.php:19) in /home/take6418/public_html/amolana/controller/login/logout.php on line 33
+[07-Aug-2019 17:23:16 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/take6418/public_html/amolana/controller/login/logout.php on line 37
+[07-Aug-2019 10:39:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'take6418_ta'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 10:39:02 UTC] PHP Notice:  Trying to get property of non-object in /home/take6418/public_html/amolana/config.php on line 6
+[07-Aug-2019 17:39:02 Asia/Jakarta] PHP Notice:  Undefined index: username in /home/take6418/public_html/amolana/controller/login/logout.php on line 37
+[07-Aug-2019 17:39:02 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/take6418/public_html/amolana/controller/login/logout.php on line 37
+[07-Aug-2019 17:48:53 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'take6418_novi'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 17:48:53 Asia/Jakarta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/take6418/public_html/amolana/controller/login/logout.php:19) in /home/take6418/public_html/amolana/controller/login/logout.php on line 33
+[07-Aug-2019 17:48:53 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/take6418/public_html/amolana/controller/login/logout.php on line 37
+[07-Aug-2019 18:17:17 Asia/Jakarta] PHP Notice:  Undefined index: username in /home/take6418/public_html/amolana/controller/login/logout.php on line 37
+[07-Aug-2019 18:52:11 Asia/Jakarta] PHP Notice:  Undefined index: username in /home/take6418/public_html/amolana/controller/login/logout.php on line 37

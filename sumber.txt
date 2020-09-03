@@ -1,0 +1,85 @@
+ //sumber readonly guard incident reporting
+ <script>
+  function onLoadBody() {
+    document.getElementById('tahapan').readOnly = true;
+    document.getElementById('kode_report').readOnly = true;
+    document.getElementById('report_tipe').readOnly = true;
+    document.getElementById('nomor').readOnly = true;
+    document.getElementById('tanggal').readOnly = true;
+    document.getElementById('incident_ref').readOnly = true;
+    document.getElementById('medical_ref_no').readOnly = true;
+    document.getElementById('nama_pelapor').readOnly = true;
+    document.getElementById('tempat_lahir').readOnly = true;
+    document.getElementById('tanggal_lahir').readOnly = true;
+    document.getElementById('jenis_kelamin').readOnly = true;
+    document.getElementById('agama').readOnly = true;
+    document.getElementById('pekerjaan').readOnly = true;
+    document.getElementById('pangkat').readOnly = true;
+    document.getElementById('jabatan').readOnly = true;
+    document.getElementById('kesatuan').readOnly = true;
+    document.getElementById('negara').readOnly = true;
+    document.getElementById('tanggal_kejadian').readOnly = true;
+    document.getElementById('tempat_kejadian').readOnly = true;
+    document.getElementById('jam_kejadian').readOnly = true;
+    document.getElementById('pasal').readOnly = true;
+    document.getElementById('pkb_pasal').readOnly = true;
+    document.getElementById('terlapor').readOnly = true;
+    document.getElementById('modus_operandi').readOnly = true;
+    document.getElementById('saksi').readOnly = true;
+    document.getElementById('barang_bukti').readOnly = true;
+    document.getElementById('uraian_singkat').readOnly = true;
+    document.getElementById('tindakan_diambil').readOnly = true;
+
+  } 
+</script>
+
+//validate form incident report
+<script>
+  function validateForm() {
+    var a = document.forms["myForm"]["report_type"].value;
+    var b = document.forms["myForm"]["nomor"].value;
+    var c = document.forms["myForm"]["tanggal"].value;
+    var d = document.forms["myForm"]["nama"].value;
+    var e = document.forms["myForm"]["tempat_lahir"].value;
+    var f = document.forms["myForm"]["tanggal_lahir"].value;
+    var g = document.forms["myForm"]["jns_kelamin"].value;
+    var h = document.forms["myForm"]["agama"].value;
+    var i = document.forms["myForm"]["negara"].value;
+    var j = document.forms["myForm"]["pekerjaan"].value;
+    var k = document.forms["myForm"]["pangkat"].value;
+    var l = document.forms["myForm"]["jabatan"].value;
+    var m = document.forms["myForm"]["kesatuan"].value;
+    var n = document.forms["myForm"]["tanggal_kejadian"].value;
+    var o = document.forms["myForm"]["jam_kejadian"].value;
+    var p = document.forms["myForm"]["tempat_kejadian"].value;
+    var q = document.forms["myForm"]["melanggar_pasal"].value;
+    var r = document.forms["myForm"]["pkb_pasal"].value;
+    var s = document.forms["myForm"]["terlapor"].value;
+    var t = document.forms["myForm"]["modus_operandi"].value;
+    var u = document.forms["myForm"]["saksi"].value;
+   
+   
+    if (a == "") {alert("Harap Isi Report Type"); return false;
+    }else if (b == ""){ alert("Harap Isi Nomor"); return false;
+    }else if (c == "") {alert("Harap Isi Tanggal"); return false;
+    }else if (d == "") { alert("Harap Isi Nama Bagian Pelapor"); return false;
+    }else if (e == "") { alert("Harap Isi Tempat Lahir Bagian Pelapor");return false;
+    }else if (f == "") {alert("Harap Isi Tanggal Lahir Bagian Pelapor"); return false;
+    }else if (g == "") { alert("Harap Isi Jenis Kelamin Bagian Pelapor"); return false;
+    }else if (h == "") {alert("Harap Isi Agama Bagian Pelapor");return false;
+    }else if (i == "") {alert("Harap Isi Negara Bagian Pelapor");return false;
+    }else if (j == "") {alert("Harap Isi Pekerjaan Bagian Pelapor"); return false;
+    }else if (k == "") { alert("Harap Isi Pangkat Bagian Pelapor");return false;
+    }else if (l == "") {alert("Harap Isi Jabatan Bagian Pelapor"); return false;
+    }else if (m == "") {alert("Harap Isi Kesatuan Bagian Pelapor");return false;
+    }else if (n == "") {alert("Harap Isi Tanggal Kejadian Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (o == "") {alert("Harap Isi Jam Kejadian Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (p == "") { alert("Harap Isi Tempat Kejadian Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (q == "") {alert("Harap Isi Melanggar Pasal Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (r == "") {alert("Harap Isi Pkb Pasal Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (s == "") {alert("Harap Isi Terlapor Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (t == "") { alert("Harap Isi Modus Operandi Bagian Peristiwa Yang Dilaporkan");return false;
+    }else if (u == "") {alert("Harap Isi Saksi Bagian Peristiwa Yang Dilaporkan");return false;
+    }
+  }
+</script>

@@ -1,0 +1,21 @@
+.form-link{
+	color: rgba(255, 255, 255, 0.75) !important;
+    font-size: 12px;
+    padding: 9px;
+	}
+	.form-link-1{
+	color: #F2F5F7 !important;
+	font-size: 13px;
+    padding: 13px 15px 7px 15px;
+	}
+	body.nav-sm .nav.side-menu li .form-link-1  i{
+	font-size: 25px !important;
+	text-align: center;
+	width: 100% !important;
+	margin-bottom: 5px;
+	}body.nav-sm .nav.side-menu li .form-link-1{
+	font-size: 10px !important;
+	text-align: center;
+	width: 100% !important;
+	margin-bottom: 5px;
+	}

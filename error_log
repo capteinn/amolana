@@ -1,0 +1,8 @@
+[07-Aug-2019 10:29:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'take6418_ta'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 10:29:07 UTC] PHP Notice:  Trying to get property of non-object in /home/take6418/public_html/amolana/config.php on line 5
+[07-Aug-2019 10:31:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'take6418_ta'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 10:31:43 UTC] PHP Notice:  Trying to get property of non-object in /home/take6418/public_html/amolana/config.php on line 6
+[07-Aug-2019 10:32:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'sg7-1.rumahweb.com' (using password: NO) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 10:32:00 UTC] PHP Notice:  Trying to get property of non-object in /home/take6418/public_html/amolana/config.php on line 6
+[07-Aug-2019 17:44:33 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'take6418_ta'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
+[07-Aug-2019 17:47:44 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'take6418_novi'@'sg7-1.rumahweb.com' (using password: YES) in /home/take6418/public_html/amolana/config.php on line 3
