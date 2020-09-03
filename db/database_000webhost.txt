@@ -1,3 +1,22 @@
+- buat database di hosting dulu. Tools -> File Database manager (settingan username, dbname, dan password di simpen, jangan sampe lupa)
+- upload file codingan di file manager . Tools -> File Manager
+- Setting pertama website di hosting :
+1. setting config.php di root folder
+database, username, dan password
+$host = 'localhost';
+$user = 'id14766226_amolanadb';
+$pass = 'ptS1e|xIF0?x%B91';
+$db = 'id14766226_amolana';
+
+2. ubah index.php di root folder menjadi
+<?php
+header('location: front/');
+?>
+
+3. website sudah dapat digunakan.
+
+====================================
+
 db name : id14766226_amolana
 db user : id14766226_amolanadb
-pass    : ]r(P7(v-3&ph6m)z
+pass    : ptS1e|xIF0?x%B91

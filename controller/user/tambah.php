@@ -58,7 +58,7 @@ if(isset($_POST['create_user'])){
                     die;
 
       }
-      $query1 = mysqli_query($link, "INSERT INTO users (name,alamat,no_telp, username, password, jabatan, usergroup, created_at, updated_at) VALUES ('$name','$alamat','$notelepon', '$username', sha1('$password'), '$jabatan','$usergroup', '$create','$update')") or die(mysqli_error());
+      $query1 = mysqli_query($link, "INSERT INTO users (name,alamat,no_telp, username, password, jabatan, usergroup, created_at) VALUES ('$name','$alamat','$notelepon', '$username', sha1('$password'), '$jabatan','$usergroup', '$create')") or die(mysqli_error($link));
 
       echo ".";
          if ($query1) {
@@ -115,7 +115,7 @@ if(isset($_POST['create_user'])){
                     die;
 
       }
-      $query1 = mysqli_query($link, "INSERT INTO users (name,alamat,no_telp, username, password, jabatan, usergroup, created_at, updated_at) VALUES ('$name','$alamat','$notelepon', '$username', sha1('$password'), '$jabatan','$usergroup', '$create','$update')") or die(mysqli_error());
+      $query1 = mysqli_query($link, "INSERT INTO users (name,alamat,no_telp, username, password, jabatan, usergroup, created_at) VALUES ('$name','$alamat','$notelepon', '$username', sha1('$password'), '$jabatan','$usergroup', '$create')") or die(mysqli_error());
 
       echo ".";
          if ($query1) {
