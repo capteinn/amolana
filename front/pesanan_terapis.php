@@ -152,9 +152,9 @@ $finalcode='BOOK-'.createRandomPassword().$kode;
                                 <td>
                                     <img class="img-fluid" src="../images/<?= $data_ceka['kode_terapis'] ?>/<?= $data_ceka['file_name'] ?>" alt="">
                                 </td>
-                                <td><?= $data_ceka['jenis_kelamin'] ?></td>
+                                <td><h5><?= $data_ceka['nama_terapis'] ?></h5></td>
                                 <td>
-                                    <h5><?= $data_ceka['nama_terapis'] ?></h5>
+                                    <?= $data_ceka['jenis_kelamin'] ?>
                                 </td>
                                 <td><?= $data_ceka['umur'] ?></td>
                                 
